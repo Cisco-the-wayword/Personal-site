@@ -109,6 +109,7 @@ h4 {
   width: 60px;
   float: right;
   padding: 15px;
+  padding-left: 270%;
 }
 
 nav {
@@ -172,6 +173,7 @@ body {
   border: 1px solid #d0d9d4;
   border-radius: 8px;
   margin-bottom: 24px;
+  background: #ebf0ee;
 }
 
 .gray-area {
@@ -335,7 +337,9 @@ body {
 }
 
 .about {
-  background-image: url("Images/Aboutme-background\ \(1\).png");
+  background-image: url("Images/Aboutme-background\ \(1\).png"), url("Images/illustration.png");
+  background-position: left top, right top;
+  background-repeat: no-repeat;
 }
 
 .gap {
@@ -402,8 +406,13 @@ body {
 }
 
 button:hover {
-  border-radius: 0;
-  background: #3a4a42;
+  border-radius: 4px;
+  background: #36b37f;
+}
+
+button:active {
+  border-radius: 4px;
+  background: #008552;
 }
 
 .works1 {
