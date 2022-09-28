@@ -638,7 +638,7 @@
     font-size: 15px;
     line-height: 24px;
     color: #091e42;
-    padding: 5px 10px;
+    padding: 12px;
   }
 
   .illustration-contact {
@@ -670,6 +670,7 @@
     align-items: center;
     width: 100%;
     display: flex;
+    padding-top: 24px;
   }
 
   .lower-logo {
@@ -678,8 +679,11 @@
     margin-top: 40px;
   }
 
-  footer {
-    position: absolute;
+  ::placeholder {
+    padding: 15px 16px;
+  }
+
+  .footer {
     width: 375px;
     height: 189px;
     font-family: "Inter", sans-serif;
@@ -870,5 +874,27 @@
     align-items: center;
     text-align: center;
     color: #172b4d;
+  }
+  .block {
+    width: 327px;
+    height: 474px;
+    top: 4px;
+    left: 2px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    background: #ebf0ee;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 0;
+    gap: 24px;
+    height: 482px;
   }
 }
