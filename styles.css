@@ -701,7 +701,9 @@
 }
 
 @media screen and (min-width: 1000px) {
-  .top-bar, .space, .indicator {
+  .top-bar,
+  .space,
+  .indicator {
     display: none;
   }
 
@@ -759,7 +761,7 @@
   }
 
   .txt-nav {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -777,18 +779,18 @@
   }
 
   .header {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.37px;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .article {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 48px;
@@ -801,22 +803,22 @@
   .p {
     width: 920px;
     height: 96px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
     text-align: center;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .images {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px;
+    padding: 0;
     height: 40px;
-    margin: aut0;
+    margin: auto;
     margin-left: 337px;
   }
 
@@ -850,7 +852,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 0px;
+    padding: 80px 0;
     gap: 48px;
     width: 1171px;
     height: 1244px;
@@ -859,7 +861,7 @@
 
   .works {
     height: 48px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -867,7 +869,6 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #172B4D;
+    color: #172b4d;
   }
-
 }
