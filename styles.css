@@ -857,7 +857,7 @@
     flex-direction: column;
     align-items: center;
     padding: 80px 0;
-    gap: 48px;
+    /* gap: 48px; */
     width: 1171px;
     height: 1244px;
     margin: auto;
@@ -877,17 +877,13 @@
   }
 
   .block {
-    width: 327px;
+    width: 369px;
     height: 474px;
-    top: 4px;
-    left: 2px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     border: 1px solid #d0d9d4;
     border-radius: 8px;
-    margin-bottom: 24px;
+    margin-right: 24px;
     background: #ebf0ee;
+    display: inline;
   }
 
   .row {
@@ -895,7 +891,116 @@
     flex-direction: row;
     align-items: center;
     padding: 4px 0;
-    gap: 24px;
     height: 482px;
+    width: 1155px;
+    margin-top: 24px;
   }
+
+  .gray-area {
+    height: 252px;
+    width: 369px;
+    background: #ebf0ee;
+  }
+
+  .description {
+    background: #fff;
+    border-radius: 8px;
+    border: 2px solid #ebf0ee;
+    height: 222px;
+  }
+
+  .post {
+    width: 295px;
+    height: 57px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3a4a42;
+    flex: none;
+    order: 0;
+    margin: 16px auto;
+    flex-grow: 0;
+  }
+
+  .tags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    width: 305px;
+    height: 32px;
+    margin: auto;
+  }
+
+  .button-space {
+    width: 305px;
+    height: 101px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .project-text {
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #fff;
+    background: #36b37e;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
+  }
+
+  .tags ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    width: 305px;
+    height: 32px;
+    flex: none;
+  }
+
+  .tags ul li {
+    background: #ebf0ee;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3a4a42;
+    margin: auto;
+    padding: 12px;
+  }
+
+  .about {
+    background-image: url('Images/illustration\ about\ me\ desktop.png'), url('Images/About-me\ desktop\ single.png');
+    background-position: left-top, left-bottom;
+    background-size: cover, 0;
+    background-repeat: no-repeat;
+  }
+  
+  
 }
