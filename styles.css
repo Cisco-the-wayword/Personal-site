@@ -5,8 +5,8 @@
     margin: 10px;
   }
 
-  main {
-    max-width: 375px;
+  .firth {
+    width: 100%;
     margin: auto;
     height: fit-content;
     background-image: url("Images/temp3.png");
@@ -717,7 +717,7 @@
     display: none;
   }
 
-  main {
+  .firth {
     background-image: url(Images/headerDesktop.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -782,7 +782,6 @@
   }
 
   .front-page {
-    width: 920px;
     height: 756px;
     padding: 160px 0;
     margin: auto;
@@ -820,16 +819,15 @@
     line-height: 32px;
     text-align: center;
     color: #172b4d;
+    margin: auto;
   }
 
-  .images {
-    display: flex;
-    flex-direction: row;
+  .images ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
     align-items: center;
     padding: 0;
     height: 40px;
-    margin: auto;
-    margin-left: 337px;
   }
 
   .img {
