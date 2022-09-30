@@ -721,6 +721,7 @@
     background-image: url(Images/headerDesktop.png);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1434px;
   }
 
   .desktop-nav {
@@ -822,7 +823,7 @@
     margin: auto;
   }
 
-  .images ul {
+  ul .images {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     align-items: center;
@@ -890,13 +891,18 @@
   }
 
   .row {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 369px 369px 369px;
     align-items: center;
     padding: 4px 0;
     height: 482px;
     width: 1155px;
     margin-top: 24px;
+    gap: 24px;
+  }
+
+  .stub {
+    grid-column-start: 1;
   }
 
   .gray-area {
