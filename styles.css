@@ -352,7 +352,6 @@
 
   .about-head {
     margin: 40px auto 0;
-    /* margin-left: 60px; */
     display: block;
     align-items: center;
     justify-content: center;
@@ -675,7 +674,7 @@
 
   .lower-logo ul {
     justify-content: center;
-    text-align: center; 
+    text-align: center;
     padding: 0;
     margin: 40px auto 0;
   }
@@ -1007,9 +1006,9 @@
     background-size: 20%, 20%;
     background-repeat: no-repeat;
     padding-top: 118px;
-    height: 250px;  
+    height: 250px;
   }
-  
+
   .about-head {
     width: 447px;
     height: 48px;
@@ -1025,7 +1024,7 @@
     color: #172b4d;
     margin: auto;
   }
-    
+
   .about-text {
     width: 920px;
     height: 96px;
@@ -1077,7 +1076,7 @@
     gap: 24px;
     height: 360px;
     width: 1171px;
-    margin: 52px auto ;
+    margin: 52px auto;
   }
 
   .container {
