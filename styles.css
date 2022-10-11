@@ -762,7 +762,21 @@ body {
     display: block;
   }
 
-/* The code goes here  */
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+    background: #67798e;
+    height: 1.6px;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+    background: #67798e;
+    height: 1.6px;
+  }
 
   .hamburger.active {
     margin-top: 90px;
