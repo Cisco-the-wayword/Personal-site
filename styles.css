@@ -475,6 +475,10 @@ body {
     justify-content: space-between;
   }
 
+  .nav-item li {
+    list-style: none;
+  }
+
   .card-buttons ul {
     list-style-type: none;
     margin: 0;
@@ -713,20 +717,15 @@ body {
     display: none;
   }
 
-  .nav-item li {
-    list-style: none;
-  }
-
   .nav-link {
     text-decoration: none;
-    /* color: white; */
     transition: 0.7s ease;
     color: #3a4a42;
   }
 
   .nav-item {
     margin: 16px 0;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
@@ -761,6 +760,22 @@ body {
     cursor: pointer;
     display: block;
   }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+  
+  .hamburger.active {
+    margin-top: 90px;
+    position: fixed;
+    right: 20px;
+  }
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
@@ -778,12 +793,6 @@ body {
     height: 1.6px;
   }
 
-  .hamburger.active {
-    margin-top: 90px;
-    position: fixed;
-    right: 20px;
-  }
-
   .hamburger.active .bar {
     width: 15px;
   }
@@ -795,7 +804,7 @@ body {
     gap: 0;
     flex-direction: column;
     mix-blend-mode: normal;
-    box-sizing: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-sizing: 0 48px 48px rgba(37, 47, 137, 0.08);
     background-color: #fff;
     width: 100%;
     text-align: center;
@@ -807,7 +816,7 @@ body {
   .nav-branding {
     width: 90px;
     height: 28px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -815,20 +824,9 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    color: #28352F;
+    color: #28352f;
     text-decoration: none;
   }
-
-  .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: white;
-  }
-   
 }
 
 @media screen and (min-width: 601px) {
