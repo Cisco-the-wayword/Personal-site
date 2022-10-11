@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
   .img {
     height: 20px;
     width: 20px;
@@ -712,9 +712,112 @@ body {
   hr {
     display: none;
   }
+
+  .nav-item li {
+    list-style: none;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    /* color: white; */
+    transition: 0.7s ease;
+    color: #3a4a42;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #3a4a42;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-link:hover {
+    color: #36b37e;
+  }
+
+  .nav-bar {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    justify-content: space-between;
+    min-width: 345px;
+  }
+
+  span.bar {
+    background: #28352f;
+  }
+
+  .hamburger {
+    cursor: pointer;
+    display: block;
+  }
+
+/* The code goes here  */
+
+  .hamburger.active {
+    margin-top: 90px;
+    position: fixed;
+    right: 20px;
+  }
+
+  .hamburger.active .bar {
+    width: 15px;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    bottom: 37px;
+    gap: 0;
+    flex-direction: column;
+    mix-blend-mode: normal;
+    box-sizing: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    height: 100%;
+    border-radius: 8%;
+  }
+
+  .nav-branding {
+    width: 90px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #28352F;
+    text-decoration: none;
+  }
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+  }
+   
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 601px) {
   .top-bar,
   .space,
   .indicator,
@@ -727,8 +830,8 @@ body {
   .firth {
     background-image: url(Images/headerDesktop.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 1434px;
+    background-size: contain;
+    height: 13 34px;
   }
 
   .desktop-nav {
@@ -1259,5 +1362,10 @@ body {
 
   ::placeholder {
     padding: 15px 16px;
+  }
+
+  .desk-link {
+    text-decoration: none;
+    color: black;
   }
 }
