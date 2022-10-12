@@ -11,26 +11,39 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Pacifico&family=Rubik+Moonrocks&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
-  <!-- <link rel="stylesheet" href="animations.css" /> -->
+  <link rel="stylesheet" href="animations.css" />
   <title>Portfolio Project</title>
 </head>
 
 <body>
   <header class="top-bar">
-    <h4>Welcome</h4>
-    <nav class="hamburger">
-      <img class="menu"
-        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAMFBMVEX///8AAADl5eX09PTV1dUICAiurq5TU1Orq6tJSUnc3Nzt7e1ERET6+vpRUVG9vb0gCS9GAAAA8ElEQVR4nO3dOQ4CQRAEQZblPv//W2yUFsLoNSKekGb1SLPbAQAAAAAAAAAAAADfbodh9+kC9ViGXaYL1Hm6yWm6QGlSmpQmpUlpUpqUJqVJaVKalCalSWlSmpQmpUlpUpqUJnWdbrLBjXqd9pwuAAAAAMCvzstx1Ba3x9f09rjBJjbq0qQ0KU1Kk9KkNClNSpPSpDQpTUqT0qQ0KU1Kk9KkNClvQet9mnW5TRcAAAAAgP/d98PW6QJljy27fWlSmpQmpUlpUpqUJqVJaVKalCalSWlSmpQmpUlpUpqUJuWPs3LLAAAAAAAAAAAAAGAbPhzZL1DD5UvKAAAAAElFTkSuQmCC"
-        alt="Menu Icon" />
+    <nav class="nav-bar">
+        <a href="#" class="nav-branding">Welcome</a>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="#recent" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
     </nav>
   </header>
   <main>
     <section class="firth">
     <nav class="desktop-nav">
       <nav class="item-nav">
-        <div id="nav-ptf" class="txt-nav">Portfolio</div>
-        <div id="nav-abt" class="txt-nav">About</div>
-        <div id="nav-cnt" class="txt-nav">Contact</div>
+        <div id="nav-ptf" class="txt-nav"><a href="#recent" class="desk-link">Portfolio</a></div>
+        <div id="nav-abt" class="txt-nav"><a href="#about" class="desk-link">About</a></div>
+        <div id="nav-cnt" class="txt-nav"><a href="#contact" class="desk-link">Contact</a></div>
       </nav>
     </nav>
     <section class="front-page">
@@ -68,7 +81,7 @@
       </div>
       <div class="space"></div>
       <div>
-        <img class="drop-down" src="Images/drop-down.png" alt="drop-down button" />
+        <a href="#recent"><img class="drop-down" src="Images/drop-down.png" alt="drop-down button" /></a>
       </div>
     </section>
     </section>
@@ -186,7 +199,7 @@
       </div>
     </section>
     <div class="the-rest">
-      <section class="about">
+      <section class="about" id="about">
         <div class="gap"></div>
         <h2 class="about-head">About me</h2>
         <div>
@@ -248,7 +261,7 @@
       </div>
     </div>
   </main>
-  <footer class="contact-form">
+  <footer class="contact-form" id="contact">
     <nav class="text-layout">
       <h4 class="form-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in
         touch.</h4>
@@ -291,5 +304,5 @@
     <p class="footer">dexterhack800@gmail.com</p>
   </div>
 </body>
-
+<script src="script.js"></script>
 </html>
