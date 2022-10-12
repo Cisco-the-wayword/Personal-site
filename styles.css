@@ -12,7 +12,7 @@ body {
   .firth {
     width: 100%;
     margin: auto;
-    height: fit-content;
+    /* height: fit-content; */
     background-image: url("Images/temp3.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -628,9 +628,6 @@ body {
     background: #fff;
     border: 1px solid #d0d9d4;
     border-radius: 4px;
-    flex-direction: none;
-    order: 0;
-    flex-grow: 0;
   }
 
   .bio {
@@ -760,7 +757,7 @@ body {
     cursor: pointer;
     display: block;
   }
-  
+
   .bar {
     display: block;
     width: 25px;
@@ -770,11 +767,15 @@ body {
     transition: all 0.3s ease-in-out;
     background-color: white;
   }
-  
+
   .hamburger.active {
     margin-top: 90px;
     position: fixed;
-    right: 20px;
+    left: 325px
+  }
+
+  .hamburger.active .bar {
+    width: 15px;
   }
 
   .hamburger.active .bar:nth-child(2) {
@@ -793,10 +794,6 @@ body {
     height: 1.6px;
   }
 
-  .hamburger.active .bar {
-    width: 15px;
-  }
-
   .nav-menu {
     position: fixed;
     left: -100%;
@@ -804,13 +801,13 @@ body {
     gap: 0;
     flex-direction: column;
     mix-blend-mode: normal;
-    box-sizing: 0 48px 48px rgba(37, 47, 137, 0.08);
     background-color: #fff;
     width: 100%;
     text-align: center;
     transition: 0.3s;
     height: 100%;
     border-radius: 8%;
+    overflow-x: hidden;
   }
 
   .nav-branding {
@@ -843,11 +840,9 @@ body {
     background-image: url(Images/headerDesktop.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 13 34px;
   }
 
   .desktop-nav {
-    width: max-width;
     height: 72px;
     align-items: center;
   }
