@@ -797,7 +797,7 @@ body {
   .nav-menu {
     position: fixed;
     left: -100%;
-    bottom: 0px;
+    bottom: 0;
     gap: 0;
     flex-direction: column;
     mix-blend-mode: normal;
