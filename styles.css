@@ -12,7 +12,6 @@ body {
   .firth {
     width: 100%;
     margin: auto;
-    /* height: fit-content; */
     background-image: url("Images/temp3.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -771,7 +770,7 @@ body {
   .hamburger.active {
     margin-top: 90px;
     position: fixed;
-    left: 325px
+    left: 325px;
   }
 
   .hamburger.active .bar {
