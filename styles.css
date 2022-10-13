@@ -1564,13 +1564,6 @@ body {
     text-decoration: none;
   }
 
-  .project-description p {
-    margin-top: 36px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-  }
-
   .modal {
     position: fixed;
     display: none;
@@ -1634,5 +1627,7 @@ body {
     text-align: start;
     margin-top: 12px;
     margin-bottom: 0;
+    margin-top: 36px;
+    line-height: 30px;
   }
 }
