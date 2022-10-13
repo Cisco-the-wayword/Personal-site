@@ -104,7 +104,6 @@ body {
   }
 
   .top-bar {
-    /* max-width: 375px; */
     margin: auto;
     overflow: hidden;
     background-color: #fff;
@@ -164,7 +163,6 @@ body {
   }
 
   body {
-    /* max-width: 375px; */
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -574,7 +572,6 @@ body {
   .contact-form {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     padding: 0 24px;
     gap: 58px;
     align-items: center;
@@ -702,7 +699,6 @@ body {
   }
 
   .footer {
-    /* width: 375px; */
     height: 189px;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -881,7 +877,7 @@ body {
     position: relative;
     width: 20px;
     height: 20px;
-    margin-right:20px;
+    margin-right: 20px;
     top: 50px;
     cursor: pointer;
   }
@@ -959,7 +955,6 @@ body {
 }
 
 @media screen and (min-width: 601px) {
-
   .top-bar,
   .space,
   .indicator,
@@ -1523,7 +1518,6 @@ body {
     background: #ebf0ee;
     padding: 14px;
     align-self: flex-end;
-    border: none;
     color: #67798e;
     border: 2px solid #ebf0ee;
     margin-bottom: 15px;
@@ -1550,7 +1544,7 @@ body {
     font-size: 32px;
     color: #172b4d;
     font-style: normal;
-    font-style: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
     line-height: 44px;
     width: 589px;
   }
@@ -1605,20 +1599,20 @@ body {
     margin-top: 12px;
     margin-bottom: 12px;
   }
-  
+
   .project-codekit {
     display: flex;
     width: 50%;
     margin: 0 0 30px;
   }
-  
+
   .project-codekit .tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
     width: 100%;
   }
-  
+
   .project-codekit .tags .tag {
     background-color: #ebf0ee;
     color: #3a4a42;
@@ -1632,7 +1626,7 @@ body {
     font-weight: 600;
     font-style: normal;
   }
-  
+
   .project-description p {
     font-size: 16px;
     font-weight: 400;

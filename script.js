@@ -12,73 +12,68 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 }));
 
 const projects = [
-    {
-      name: 'Multi-Post Stories Gain+Glory',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
-      featuredImage: 'Images/snapshot.png',
-      description:
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
+    featuredImage: 'Images/snapshot.png',
+    description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-      liveLink: '#',
-      linkSource: '#',
-    },
-    {
-      name: 'Multi-Post Stories Gain+Glory',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
-      featuredImage: 'Images/snapshot.png',
-      description:
+    liveLink: '#',
+    linkSource: '#',
+  },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
+    featuredImage: 'Images/snapshot.png',
+    description:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-      liveLink: '#',
-      linkSource: '#',
-    },
-    {
-      name: 'Multi-Post Stories Gain+Glory',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
-      featuredImage: 'Images/snapshot.png',
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-      liveLink: '#',
-      linkSource: '#',
-    },
-    {
-      name: 'Multi-Post Stories Gain+Glory',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
-      featuredImage: 'Images/snapshot.png',
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-      liveLink: '#',
-      linkSource: '#',
-    },
-    {
-      name: 'Multi-Post Stories Gain+Glory',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
-      featuredImage: 'Images/snapshot.png',
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-      liveLink: '#',
-      linkSource: '#',
-    },
-    {
-      name: 'Multi-Post Stories Gain+Glory',
-      technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
-      featuredImage: 'Images/snapshot.png',
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-      liveLink: '#',
-      linkSource: '#',
-    },
-  ];
-
-  
-  // popup modal
-  // create work cards
-  
-  function generateWorkCard() {
-    projects.forEach((project, index) => {
-      let technology = '';
-      project.technologies.forEach((tech) => {
-        technology += `<li>${tech}</li>`;
-      });
-      document.querySelector('.row').innerHTML += `
+    liveLink: '#',
+    linkSource: '#',
+  },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
+    featuredImage: 'Images/snapshot.png',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    liveLink: '#',
+    linkSource: '#',
+  },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
+    featuredImage: 'Images/snapshot.png',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    liveLink: '#',
+    linkSource: '#',
+  },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
+    featuredImage: 'Images/snapshot.png',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    liveLink: '#',
+    linkSource: '#',
+  },
+  {
+    name: 'Multi-Post Stories Gain+Glory',
+    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
+    featuredImage: 'Images/snapshot.png',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    liveLink: '#',
+    linkSource: '#',
+  },
+];
+function generateWorkCard() {
+  projects.forEach((project, index) => {
+    let technology = '';
+    project.technologies.forEach((tech) => {
+      technology += `<li>${tech}</li>`;
+    });
+    document.querySelector('.row').innerHTML += `
       <div class="block">
         <div class="gray-area"></div>
         <div class="description">
@@ -94,47 +89,43 @@ const projects = [
         </div>
       </div>
       `;
-    });
-  }
-  
-  generateWorkCard();
-  
-  // Popup modals.
-  const popupModals = document.querySelectorAll('.popup-window');
-  const closeModal = document.querySelector('.close-button');
-  function openModal(element) {
-    const projectIndex = element.dataset.index;
-    document.querySelector('.popup-header').textContent = projects[projectIndex].name;
-    document
-      .querySelector('.modal-project-image')
-      .setAttribute(
-        'src',
-        `${projects[projectIndex].featuredImage}`,
-      );
-    document
-      .querySelector('.modal-project-image')
-      .setAttribute('alt', `${projects[projectIndex].name}`);
-    document
-      .querySelector('.moblie-see-live')
-      .setAttribute('href', `${projects[projectIndex].liveLink}`);
-    document
-      .querySelector('.moblie-see-source')
-      .setAttribute('href', `${projects[projectIndex].linkSource}`);
-    document
-      .querySelector('.desktop-see-live')
-      .setAttribute('href', `${projects[projectIndex].liveLink}`);
-    document
-      .querySelector('.desktop-see-source')
-      .setAttribute('href', `${projects[projectIndex].linkSource}`);
-    let technology = '';
-    projects[projectIndex].technologies.forEach((tech) => {
-      technology += `<div class="tag">${tech}</div>`;
-    });
-    document.querySelector('.project-codekit .tags').innerHTML = technology;
-    document.querySelector('.modal-project-description').textContent = projects[projectIndex].description;
-    document.querySelector('.modal').style.display = 'flex';
-  }
-  
+  });
+}
+generateWorkCard();
+const popupModals = document.querySelectorAll('.popup-window');
+const closeModal = document.querySelector('.close-button');
+function openModal(element) {
+  const projectIndex = element.dataset.index;
+  document.querySelector('.popup-header').textContent = projects[projectIndex].name;
+  document
+    .querySelector('.modal-project-image')
+    .setAttribute(
+      'src',
+      `${projects[projectIndex].featuredImage}`,
+    );
+  document
+    .querySelector('.modal-project-image')
+    .setAttribute('alt', `${projects[projectIndex].name}`);
+  document
+    .querySelector('.moblie-see-live')
+    .setAttribute('href', `${projects[projectIndex].liveLink}`);
+  document
+    .querySelector('.moblie-see-source')
+    .setAttribute('href', `${projects[projectIndex].linkSource}`);
+  document
+    .querySelector('.desktop-see-live')
+    .setAttribute('href', `${projects[projectIndex].liveLink}`);
+  document
+    .querySelector('.desktop-see-source')
+    .setAttribute('href', `${projects[projectIndex].linkSource}`);
+  let technology = '';
+  projects[projectIndex].technologies.forEach((tech) => {
+    technology += `<div class="tag">${tech}</div>`;
+  });
+  document.querySelector('.project-codekit .tags').innerHTML = technology;
+  document.querySelector('.modal-project-description').textContent = projects[projectIndex].description;
+  document.querySelector('.modal').style.display = 'flex';
+}
 popupModals.forEach((modal) => [
   modal.addEventListener('click', () => {
     openModal(modal);
