@@ -142,3 +142,13 @@ function validateEmail(input) {
   const emailRegex = /^[a-z_\-0-9.*#$!~%^&-+?|]+@+[a-z\-0-9]+(.com)$/gm;
   return emailRegex.test(input);
 }
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const emailValid = validateEmail(form.elements.email.value);
+  if (!emailValid) {
+    errorEmail.style.display = 'block';
+  } else {
+    errorEmail.style.display = 'none';
+    form.submit();
+  }
+});
