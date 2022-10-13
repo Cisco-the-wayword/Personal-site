@@ -233,7 +233,7 @@ body {
     gap: 8px;
     width: 305px;
     height: 32px;
-    margin: auto;
+    margin-right: 8px;
   }
 
   .ruby {
@@ -558,7 +558,8 @@ body {
     line-height: 16px;
     letter-spacing: 0.03em;
     color: #3a4a42;
-    padding: 12px;
+    padding: 10px;
+    margin: auto;
   }
 
   .contact-form {
@@ -824,9 +825,129 @@ body {
     color: #28352f;
     text-decoration: none;
   }
+
+  .desktop-view {
+    display: none;
+  }
+
+  .mobile-view {
+    display: flex;
+    gap: 12px;
+  }
+
+  .modal {
+    position: fixed;
+    display: none;
+    background-color: #c1c7d0f7;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+  }
+
+  .modal-container {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 16px;
+    width: 70%;
+    margin: auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal-project-image {
+    border-radius: 8px;
+    width: 100%;
+    height: 220px;
+  }
+
+  .close-button {
+    align-self: flex-end;
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-right:20px;
+    top: 50px;
+  }
+
+  .Intro .project-title .popup-header {
+    align-self: flex-start;
+    text-align: start;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .project-codekit {
+    display: flex;
+  }
+
+  .project-codekit .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .project-codekit .tags .tag {
+    background-color: #ebf0ee;
+    color: #3a4a42;
+    border-radius: 4px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 12px;
+  }
+
+  .project-description p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #344563;
+    text-align: start;
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+
+  .project-btn.mobile-view {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 20px;
+  }
+
+  .flex-item-2 {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+  }
+
+  .flex-item-2 .btn {
+    align-self: center;
+  }
+
+  .project-btn.mobile-view .btn {
+    display: flex;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 8px 12px;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+    background: #36b37e;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: center;
+  }
 }
 
 @media screen and (min-width: 601px) {
+
   .top-bar,
   .space,
   .indicator,
@@ -1019,10 +1140,6 @@ body {
     gap: 24px;
   }
 
-  .stub {
-    grid-column-start: 1;
-  }
-
   .gray-area {
     height: 252px;
     width: 369px;
@@ -1119,7 +1236,7 @@ body {
     letter-spacing: 0.03em;
     color: #3a4a42;
     margin: auto;
-    padding: 12px;
+    padding: 10px;
   }
 
   .about {
@@ -1374,5 +1491,141 @@ body {
   .desk-link {
     text-decoration: none;
     color: black;
+  }
+
+  .desktop-view {
+    display: flex;
+    gap: 12px;
+  }
+
+  .mobile-view-btn {
+    display: none;
+  }
+
+  .project-btn.mobile-view {
+    display: none;
+  }
+
+  .close-button {
+    border-radius: 8px;
+    background: #ebf0ee;
+    padding: 14px;
+    align-self: flex-end;
+    border: none;
+    color: #67798e;
+    border: 2px solid #ebf0ee;
+    margin-bottom: 15px;
+  }
+
+  .modal-project-image {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+  }
+
+  .modal-container .Intro {
+    position: static;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+
+  .popup-header {
+    font-weight: 700;
+    font-size: 32px;
+    color: #172b4d;
+    font-style: normal;
+    font-style: "Inter", sans-serif;
+    line-height: 44px;
+    width: 589px;
+  }
+
+  .project-btn.desktop-view .btn {
+    display: flex;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 8px 12px;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    border-radius: 8px;
+    background: #36b37e;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .project-description p {
+    margin-top: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .modal {
+    position: fixed;
+    display: none;
+    background-color: #c1c7d0f7;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+  }
+
+  .modal-container {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 16px;
+    width: 70%;
+    margin: auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Intro .project-title .popup-header {
+    align-self: flex-start;
+    text-align: start;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .project-codekit {
+    display: flex;
+    width: 50%;
+    margin: 0 0 30px;
+  }
+  
+  .project-codekit .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  
+  .project-codekit .tags .tag {
+    background-color: #ebf0ee;
+    color: #3a4a42;
+    border-radius: 4px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .project-description p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #344563;
+    text-align: start;
+    margin-top: 12px;
+    margin-bottom: 0;
   }
 }

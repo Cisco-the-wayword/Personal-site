@@ -2,3 +2,11 @@
   transform: scale(1.1);
   box-shadow: 1px 0 12px -6px #172b4d;
 }
+
+.nav-branding:hover {
+  transform: rotate(360deg);
+  transform: translate(0px, 0px);
+  color: #36b37e;
+  animation: cssAnimation_0 800ms 1 ease-in 127ms;
+  cursor: default;
+}
