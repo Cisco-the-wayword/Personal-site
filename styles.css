@@ -2,6 +2,16 @@ body {
   overflow-x: hidden;
 }
 
+.error {
+  color: red;
+}
+
+#email_error,
+#name_error,
+#message_error {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .img {
     height: 20px;
@@ -575,7 +585,7 @@ body {
     padding: 0 24px;
     gap: 58px;
     align-items: center;
-    height: 839px;
+    /* height: 839px; */
     position: relative;
     margin: auto;
     background-image: url('Images/illustration-contact-form.png');
@@ -680,7 +690,7 @@ body {
   }
 
   .touch-box {
-    margin: 0 auto;
+    margin: 70px auto;
     align-items: center;
     width: 100%;
     display: flex;

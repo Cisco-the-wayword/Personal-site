@@ -135,3 +135,10 @@ popupModals.forEach((modal) => [
 closeModal.addEventListener('click', () => {
   document.querySelector('.modal').style.display = 'none';
 });
+
+const form = document.querySelector('#formspree');
+const errorEmail = document.querySelector('#email_error');
+function validateEmail(input) {
+  const emailRegex = /^[a-z_\-0-9.*#$!~%^&-+?|]+@+[a-z\-0-9]+(.com)$/gm;
+  return emailRegex.test(input);
+}

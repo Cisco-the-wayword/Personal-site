@@ -198,15 +198,18 @@
       <h4 class="form-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in
         touch.</h4>
     </nav>
-    <form method="post" action="https://formspree.io/f/mbjbdrnb" class="form-data">
+    <form method="post" action="https://formspree.io/f/mbjbdrnb" class="form-data" id="formspree">
       <fieldset>
         <label><input class="label" type="text" name="first-name" placeholder="Full name" maxlength="30"
             required /></label>
+        <small id="name_error" class="error">Please enter a valid Full name</small>
         <label><input class="label" type="email" name="email" placeholder="Email address" required /></label>
+        <small id="email_error" class="error">Please enter a lowercase Email.</small>
         <label>
           <textarea class="bio" rows="3" cols="30" placeholder="Type in something" maxlength="500" name="bio"
             required></textarea>
         </label>
+        <small id="message_error" class="error">Please enter a valid Message</small>
         <button class="in-touch" type="submit">Get in touch</button>
       </fieldset>
       <div class="touch-box">
