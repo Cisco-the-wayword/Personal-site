@@ -135,11 +135,3 @@ const projects = [
     document.querySelector('.modal').style.display = 'flex';
   }
   
-  popupModals.forEach((modal) => [
-    modal.addEventListener('click', () => {
-      openModal(modal);
-    }),
-  ]);
-  closeModal.addEventListener('click', () => {
-    document.querySelector('.modal').style.display = 'none';
-  });
