@@ -200,13 +200,13 @@
     </nav>
     <form method="post" action="https://formspree.io/f/mbjbdrnb" class="form-data" id="formspree">
       <fieldset>
-        <label><input class="label" type="text" name="first-name" placeholder="Full name" maxlength="30"
+        <label><input class="label" type="text" id="name" name="first-name" placeholder="Full name" maxlength="30"
             required /></label>
         <small id="name_error" class="error">Please enter a valid Full name</small>
-        <label><input class="label" type="email" name="email" placeholder="Email address" required /></label>
+        <label><input class="label" type="email" id="email" name="email" placeholder="Email address" required /></label>
         <small id="email_error" class="error">Please enter a lowercase Email.</small>
         <label>
-          <textarea class="bio" rows="3" cols="30" placeholder="Type in something" maxlength="500" name="bio"
+          <textarea class="bio" rows="3" id="message" cols="30" placeholder="Type in something" maxlength="500" name="bio"
             required></textarea>
         </label>
         <small id="message_error" class="error">Please enter a valid Message</small>
