@@ -152,3 +152,13 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+form.addEventListener('keyup', () => {
+  const data = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('message').value,
+  };
+  localStorage.setItem('data', JSON.stringify(data));
+});
+
+

@@ -345,6 +345,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #fff;
+    cursor: pointer;
     background: #36b37e;
     padding: 12px;
     border: none;
@@ -417,6 +418,7 @@ body {
     background: #36b37e;
     padding: 12px;
     border: none;
+    cursor: pointer;
     border-radius: 4px;
     margin: auto;
   }
@@ -677,6 +679,7 @@ body {
     height: 48px;
     background: #36b37f;
     border-radius: 4px;
+    cursor: pointer;
     color: #fff;
     font-family: "Inter", sans-serif;
     font-style: normal;
@@ -1216,6 +1219,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
+    cursor: pointer;
     line-height: 24px;
     align-items: center;
     text-align: center;
@@ -1304,6 +1308,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
     color: #fff;
     background: #36b37e;
     padding: 12px;
@@ -1474,6 +1479,7 @@ body {
     color: #fff;
     text-align: center;
     justify-content: center;
+    cursor: pointer;
     border: none;
   }
 
