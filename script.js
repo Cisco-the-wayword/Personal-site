@@ -152,3 +152,14 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+function getData() {
+  const data = JSON.parse(localStorage.getItem('data'));
+
+  if (data) {
+    document.getElementById('name').value = data.name;
+    document.getElementById('email').value = data.email;
+    document.getElementById('message').value = data.message;
+  }
+}
+getData();
