@@ -13,13 +13,13 @@ document.querySelectorAll('.nav-link').forEach((n) => n.addEventListener('click'
 
 const projects = [
   {
-    name: 'Multi-Post Stories Gain+Glory',
-    technologies: ['Ruby on Rails', 'CSS', 'JavaScript', 'html'],
-    featuredImage: 'Images/snapshot.png',
+    name: 'TPPS April Conference',
+    technologies: ['CSS', 'JavaScript', 'html', 'gitflow'],
+    featuredImage: 'Images/desktop-capstone1.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    linkSource: '#',
+      "This website (purely fictional) is to raise awareness for a developers' program aimed at supporting programmers all over the world.",
+    liveLink: 'https://cisco-the-wayword.github.io/TPPS-Conference/',
+    linkSource: 'https://github.com/Cisco-the-wayword/TPPS-Conference',
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
