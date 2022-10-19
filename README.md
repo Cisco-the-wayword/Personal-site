@@ -29,8 +29,8 @@
 
 👤 **Cisco**
 
-- GitHub: [@githubhandle](https://github.com/Cisco-the-wayword)
-- Twitter: [@twitterhandle](https://twitter.com/the_wayword1)
+- GitHub: [@Cisco-the-wayword](https://github.com/Cisco-the-wayword)
+- Twitter: [@the_wayword1](https://twitter.com/the_wayword1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/boluwatife-adegboyega-9397a81b3/)
 
 
