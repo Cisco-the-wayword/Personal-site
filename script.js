@@ -75,7 +75,9 @@ function generateWorkCard() {
     });
     document.querySelector('.row').innerHTML += `
       <div class="block">
-        <div class="gray-area"></div>
+        <div class="gray-area">
+         <img src="${project.featuredImage}" class="gray-area">
+        </div>
         <div class="description">
             <h4 class="post">${project.name}</h4>
             <nav class="tags">
