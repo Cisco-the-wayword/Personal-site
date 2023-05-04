@@ -23,7 +23,7 @@ const projects = [
   },
   {
     name: 'Top streaming movies',
-    technologies: ['CSS', 'JavaScript', 'html', 'webpack', 'gitflow', 'APIs'],
+    technologies: ['CSS', 'JavaScript', 'html', 'webpack', 'APIs'],
     featuredImage: 'Images/topmovies.png',
     description:
       "This project is a webapp that involves the integration of APIs in getting and sending responses and displaying them correctly on the web application",
@@ -32,7 +32,7 @@ const projects = [
   },
   {
     name: 'Leaderboard',
-    technologies: ['CSS', 'JavaScript', 'html', 'webpack', 'gitflow', 'APIs'],
+    technologies: ['CSS', 'JavaScript', 'html', 'webpack', 'APIs'],
     featuredImage: 'Images/leaderboard.png',
     description:
       "This repository is for the integration of API's by creating a web application for a score board that collects user information (name and score) and displays them on a score board numerically",
