@@ -981,6 +981,7 @@ body {
     background-image: url(Images/headerDesktop.png);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
   }
 
   .desktop-nav {
@@ -1189,6 +1190,7 @@ body {
     order: 0;
     margin: 16px auto;
     flex-grow: 0;
+    justify-content: center;
   }
 
   .tags {
