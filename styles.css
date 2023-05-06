@@ -422,6 +422,7 @@ body {
     cursor: pointer;
     border-radius: 4px;
     margin: auto;
+    text-decoration: none;
   }
 
   button:hover {
@@ -1318,6 +1319,7 @@ body {
     border: none;
     border-radius: 4px;
     margin: auto;
+    text-decoration: none;
   }
 
   .resume-block {
