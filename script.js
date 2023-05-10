@@ -35,7 +35,7 @@ const projects = [
     technologies: ['CSS', 'JavaScript', 'html', 'webpack'],
     featuredImage: 'Images/leaderboard.png',
     description:
-      "This repository is for the integration of API's by creating a web application for a score board that collects user information (name and score) and displays them on a score board numerically",
+      "This project is for the integration of API's by creating a web application for a score board that collects user information (name and score) and displays them on a score board numerically",
     liveLink: 'https://cisco-the-wayword-leaderboard.netlify.app/',
     linkSource: 'https://github.com/Cisco-the-wayword/Leaderboard',
   },
@@ -44,18 +44,18 @@ const projects = [
     technologies: ['CSS', 'JavaScript', 'html', 'webpack'],
     featuredImage: 'Images/todolist.png',
     description:
-      "This repository contains a To-do list application that helps the user keep track of pending actions and acts as a reminder to get them done.",
+      "This project is for a To-do list application that helps the user keep track of pending actions and acts as a reminder to get them done.",
     liveLink: 'https://cisco-the-wayword.github.io/list/',
     linkSource: 'https://github.com/Cisco-the-wayword/To-do-list',
   },
   {
-    name: 'Multi-Post Stories Gain+Glory',
-    technologies: ['Ruby on Rails', 'CSS', 'html'],
-    featuredImage: 'Images/snapshot.png',
+    name: 'Math-Magicians',
+    technologies: ['JavaScript', 'CSS', 'html', 'React'],
+    featuredImage: 'Images/math-magicians.png',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    liveLink: '#',
-    linkSource: '#',
+      "This project is a calculator web application that allows users to perform basic calculator operations and displays the answer correctly. It also has a quote section that uses an external API to generate random codes to serve as motivation for users.",
+    liveLink: 'https://cisco-the-wayword-math-magicians.netlify.app/',
+    linkSource: 'https://github.com/Cisco-the-wayword/Math-magicians',
   },
   {
     name: 'Multi-Post Stories Gain+Glory',
